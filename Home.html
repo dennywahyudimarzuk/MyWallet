@@ -54,7 +54,10 @@
                   <div class="col-3">
                     <img class src="icon/arrowup.png" alt="" />
                   </div>
-                  <a class="btn-link link pl-3" href="/Search.html" role="button"
+                  <a
+                    class="btn-link link pl-3"
+                    href="/Search.html"
+                    role="button"
                     >Transfer</a
                   >
                 </div>
@@ -105,7 +108,11 @@
                   <div class="transfer col-3">
                     <div class="nominal-bar d-flex flex-column row">
                       <div class="btn-transfer-topup p-2 col">
-                        <a role="button" href="/Search.html" class="btn btn-primary p-3">
+                        <a
+                          role="button"
+                          href="/Search.html"
+                          class="btn btn-primary p-3"
+                        >
                           <img class src="icon/arrow-up.png" /> Transfer
                         </a>
                       </div>
@@ -145,8 +152,9 @@
                         </div>
                       </div>
                       <div class="chart-list1 p-2">
-                        <div class="realchart-row row">
-                          <div class="realchart col">CHART</div>
+                        <div class="col d-flex flex-column align-items-center">
+                          <h5 class="history-list1 mt-5">+Rp65.000</h5>
+                          <canvas id="canvas" class="-auto"></canvas>
                         </div>
                       </div>
                     </div>
@@ -165,7 +173,10 @@
                           <div class="col-4">
                             <div class="history-row1 row">
                               <div class="seeall col">
-                                <a class="btn-link" href="/History.html" role="button"
+                                <a
+                                  class="btn-link"
+                                  href="/History.html"
+                                  role="button"
                                   >See all</a
                                 >
                               </div>
@@ -295,6 +306,69 @@
         </div>
       </div>
     </nav>
+
+    <!-- chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="barchart-rounded.js"></script>
+    <script>
+      const color = Chart.helpers.color;
+      const barChartData = {
+        labels: ["Sat", "Sun", "Mon", "Tue", "Wen", "Thu", "Fri"],
+        datasets: [
+          {
+            label: "Balance",
+            backgroundColor: [
+              "#6379F4",
+              "#6379F4",
+              "#9DA6B5",
+              "#9DA6B5",
+              "#9DA6B5",
+              "#6379F4",
+              "#9DA6B5",
+            ],
+            borderColor: "#fff",
+            data: [9, 3, 5, 7, 4, 8, 6],
+          },
+        ],
+      };
+
+      window.onload = function () {
+        const ctx = document.getElementById("canvas").getContext("2d");
+        window.myBar = new Chart(ctx, {
+          type: "bar",
+          data: barChartData,
+          options: {
+            legend: {
+              display: false,
+            },
+            responsive: true,
+            scales: {
+              xAxes: [
+                {
+                  maxBarThickness: 13,
+                  gridLines: {
+                    lineWidth: 0,
+                    display: false,
+                  },
+                },
+              ],
+              yAxes: [
+                {
+                  ticks: {
+                    display: false,
+                    min: 0,
+                  },
+                  gridLines: {
+                    lineWidth: 0,
+                    display: false,
+                  },
+                },
+              ],
+            },
+          },
+        });
+      };
+    </script>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
