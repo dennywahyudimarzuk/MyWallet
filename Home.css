@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap");
+
+/* header */
+.bg{
+  background: #FAFCFF;
+}
+
+/* body */
+.body-coloumn {
+  margin-bottom: 35px;
+}
+.body-row {
+  height: 752px;
+}
+.body-dashboard {
+  margin-right: 20px !important;
+  padding: 0;
+}
+.dashboard-bar {
+  height: 752px;
+  padding: 30px;
+  padding-top: 25px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+  border-radius: 25px;
+}
+.dashboard-list {
+  height: 90px;
+  width: 100%;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 31px;
+  color: rgba(58, 61, 66, 0.8);
+}
+.dashboard-row {
+  height: 100%;
+  align-items: center;
+}
+.link {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 31px;
+  color: rgba(58, 61, 66, 0.8);
+}
+.menu-bar {
+  height: 752px;
+  width: 825px;
+}
+.menu-list1 {
+  height: 190px;
+  width: 99%;
+  background: #6379f4;
+  border-radius: 20px;
+}
+.menu-list2 {
+  height: 540px;
+  width: 98%;
+  margin-top: 20px;
+}
+.menulist1-row {
+  height: 175px;
+}
+.nominal {
+  padding-left: 40px;
+}
+.nominal-bar {
+  height: 180px;
+}
+.balance {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  color: #e0e0e0;
+}
+.money {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  color: #ffffff;
+}
+.numb {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #dfdcdc;
+}
+.btn {
+  width: 162px;
+  height: 57px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.btn-transfer-topup {
+  width: 90%;
+  align-items: flex-end;
+}
+.menulist2-row {
+  height: 100%;
+}
+.chart {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+  margin-right: 20px;
+  padding-right: 0;
+}
+.chart-bar {
+  height: 100%;
+}
+.chart-list {
+  height: 150px;
+}
+.chart-list1 {
+  height: 100%;
+}
+.realchart-row {
+  height: 100%;
+  align-items: center;
+}
+.realchart {
+  text-align: center;
+}
+.chart-row {
+  width: 100%;
+}
+.chart-income {
+  height: 100%;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+.chart-expanse {
+  height: 100%;
+  align-items: flex-start;
+}
+.inex {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #6a6a6a;
+}
+.inex-money {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #3a3d42;
+  padding-top: 0;
+}
+.history {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+}
+.history-bar {
+  height: 100%;
+}
+.history-list {
+  height: 100%;
+}
+.history-row {
+  height: 100%;
+}
+.transaction {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #3a3d42;
+}
+.seeall {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: end;
+}
+.history-row1 {
+  height: 100%;
+  align-items: center;
+}
+.history-list1 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #1ec15f;
+}
+.history-list2 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #ff5b37;
+}
+.history-namebar {
+  padding-left: 0;
+}
+.history-name {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4d4b57;
+  padding-bottom: 12px;
+}
+.history-do {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #7a7886;
+}
+
+/* footer */
+.bg-footer {
+  background: #6379f4;
+}
+.footer-text{
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(239, 239, 239, 0.9);
+}
+.footer-text1 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #efefef;
+}

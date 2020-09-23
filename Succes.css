@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap");
+
+/* header */
+.bg{
+  background: #FAFCFF;
+}
+
+/* body */
+.body-coloumn {
+  margin-bottom: 35px;
+}
+.body-row {
+  height: 1035px;
+}
+.body-dashboard {
+  margin-right: 25px !important;
+  padding: 0;
+}
+.body-menu {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+}
+.body-bar {
+  height: 100%;
+}
+.list {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  height: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.back-button {
+  height: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.share {
+  background: rgba(99, 121, 244, 0.15);
+  box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+  border-radius: 12px;
+  width: 57px;
+  height: 57px;
+}
+.pdf {
+  background: rgba(99, 121, 244, 0.15);
+  box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+  border-radius: 12px;
+  width: 243px;
+  height: 57px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #6379f4;
+}
+.back {
+  background: #6379f4;
+  box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+  border-radius: 12px;
+  width: 187px;
+  height: 57px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+.succes-symbol {
+  height: auto;
+  margin-top: 30px;
+}
+.succes {
+  height: 50%;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #4d4b57;
+  margin: 10px;
+}
+.transfer-to {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #514f5b;
+  margin-top: 20px;
+}
+.history-row {
+  height: 100%;
+  align-items: center;
+  margin-left: 10px;
+}
+.history-list {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #1ec15f;
+}
+.history-list1 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #ff5b37;
+}
+.history-namebar {
+  align-items: center;
+  height: 100%;
+}
+.history-number {
+  align-items: center;
+  height: 100%;
+  margin-left: 5px;
+}
+.transfer-name {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #4d4b57;
+}
+.transfer-number {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #7a7886;
+}
+.history-photo {
+  padding-left: 0;
+}
+.history-name {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #7a7886;
+  padding-left: 0;
+}
+.history-do {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  color: #514f5b;
+  padding-left: 0;
+}
+.dashboard-bar {
+  height: 100%;
+  padding: 30px;
+  padding-top: 25px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+  border-radius: 25px;
+}
+.dashboard-list {
+  height: 90px;
+  width: 100%;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 31px;
+  color: rgba(58, 61, 66, 0.8);
+}
+.dashboard-row {
+  height: 100%;
+  align-items: center;
+}
+.link {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 31px;
+  color: rgba(58, 61, 66, 0.8);
+}
+
+/* footer */
+.bg-footer {
+  background: #6379f4;
+}
+.footer-text{
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(239, 239, 239, 0.9);
+}
+.footer-text1 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #efefef;
+}
